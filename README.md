@@ -13,7 +13,7 @@ on product data as well as users.
 
 # Tools 
 - Node.js & Express.js (Server)
-- MongoDB (Datbase) 
+- MongoDB (Database) 
 - Mongoose (ORM) 
 - NPM Packages: @hapi/joi (Schema Validation), bcrypt (Password Encryption), JWT, CORS 
 
