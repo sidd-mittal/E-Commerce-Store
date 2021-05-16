@@ -18,7 +18,7 @@ dbConnection();
 app.use(cors());
 
 // request payload middleware
-app.use(express.json()); // Allows for Request Content-Type: "application/json"
+app.use(express.json()); // allows for request content-type: "application/json"
 app.use(express.urlencoded({ extended: true }));
 
 app.use("/api/v1/product", productRoutes);

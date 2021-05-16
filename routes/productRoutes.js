@@ -8,6 +8,8 @@ const tokenValidation = require("../middleware/tokenValidation");
 
 // commented out since @hapi/joi is deprecated. need to update
 
+// example of using joiSchemaValidation to validate body
+
 // router.post(
 //   "/",
 //   joiSchemaValidation.validateBody(productSchema.createProductSchema),
@@ -36,7 +38,7 @@ router.put(
   "/:id",
   tokenValidation.validateToken,
   productController.updateProduct
-); // NOT YET WORKING
+);
 
 router.delete(
   "/:id",
